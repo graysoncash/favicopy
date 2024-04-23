@@ -1,0 +1,34 @@
+html,
+body {
+  display: flex;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  margin: 20px;
+}
+
+#favicon-img {
+  max-width: 128px;
+  max-height: 128px;
+}
+
+#copied-success {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.favicon-meta-label {
+  font-weight: bold;
+}
